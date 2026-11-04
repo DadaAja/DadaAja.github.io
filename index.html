@@ -1,1 +1,74 @@
-<h1>Coucou<h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Clim' Master</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+       <header>
+        <h1>Clim' Master</h1>
+        <p>Simulateur d'entretien de climatiseur</p>
+       </header>
+
+       <main>
+
+          <section id="mission">
+           <h2>Mission 01 : Nettoyage des filtres </h2>
+              <p id="instruction">
+                commence par mettre le Climariseur hors tension.
+              </p>
+        </section>
+       
+        <section id="climatiseur">
+
+            <h2>Mon climatiseur</h2>
+
+            <div id="appareil">
+
+                <button id="facade" type="button">
+                 Façade du climatiseur
+              </button>
+
+            </div>
+            <button class="filtre" id="filtre1" type="button">
+              Filtre gauche
+            </button>
+
+        <button class="filtre" id="filtre2" type="button">
+              Filtre droit
+              </button>
+            </div>
+       
+            <div id="commandes">
+            <button id="powerbutton" type="button">
+                  Mettre hors tension
+            </button> 
+
+            <button id="nettoyerButton" type="button">
+                Nettoyer les filtres 
+            </button>
+        </div>
+                    
+     </section>
+
+    <section id="progression">
+        <h2>Progression</h2>
+        <p id="score">Étapes terminées : 0 / 5</p>
+        <p id="message"></p>
+    </section>
+      
+</main>
+
+<footer>
+    <p> Clim' Master - Projet étudiant</p>
+</footer>
+       
+</body>
+</html>
